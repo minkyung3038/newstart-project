@@ -322,7 +322,6 @@ function renderMenu(primaryCategory) {
     };
 
     menuDiv.innerHTML = `
-      ${item.badge ? `<div class="badge ${item.badge}">${item.badge === 'new' ? '신메뉴' : '베스트'}</div>` : ""}
       <div class="menu-img-box">
         <img src="${item.image}" alt="${item.name}">
       </div>
