@@ -2,10 +2,10 @@
 const menuData = {
   "추천메뉴": [
     { name: "아메리카노", price: 3000, image: "images/1.png", type: "coffee" },
-    { name: "슈크림라떼", price: 3900, image: "images/5.png", type: "coffee", badge: "new" },
+    { name: "슈크림라떼", price: 3900, image: "images/5.png", type: "coffee" },
     { name: "딸기쿠키프라페", price: 4500, image: "images/12.png", type: "drink" },
     { name: "요거트스무디", price: 4200, image: "images/14.png", type: "drink" },
-    { name: "밀크티", price: 4500, image: "images/17.png", type: "noncoffee", badge: "new" },
+    { name: "밀크티", price: 4500, image: "images/17.png", type: "noncoffee" },
     { name: "소금빵", price: 3500, image: "images/24.png", type: "dessert" },
     { name: "티라미수케이크", price: 7500, image: "images/25.png", type: "dessert" }
   ],
@@ -14,7 +14,7 @@ const menuData = {
     { name: "카페라떼", price: 3500, image: "images/2.png", type: "coffee" },
     { name: "바닐라라떼", price: 3900, image: "images/3.png", type: "coffee" },
     { name: "연유라떼", price: 3900, image: "images/4.png", type: "coffee" },
-    { name: "슈크림라떼", price: 3900, image: "images/5.png", type: "coffee", badge: "new" },
+    { name: "슈크림라떼", price: 3900, image: "images/5.png", type: "coffee" },
     { name: "아인슈페너", price: 4200, image: "images/6.png", type: "coffee" },
     { name: "콜드브루", price: 4000, image: "images/7.png", type: "coffee" }
   ],
@@ -32,7 +32,7 @@ const menuData = {
     { name: "망고스무디", price: 4800, image: "images/16.png", type: "drink" }
   ],
   "논커피": [
-    { name: "밀크티", price: 4500, image: "images/17.png", type: "noncoffee", badge: "new" },
+    { name: "밀크티", price: 4500, image: "images/17.png", type: "noncoffee" },
     { name: "녹차라떼", price: 4700, image: "images/18.png", type: "noncoffee" },
     { name: "초코라떼", price: 3900, image: "images/19.png", type: "noncoffee" },
     { name: "토피넛라떼", price: 4000, image: "images/20.png", type: "noncoffee" },
